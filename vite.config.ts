@@ -5,7 +5,6 @@ import UniHelperPages from '@uni-helper/vite-plugin-uni-pages'
 import UniHelperLayouts from '@uni-helper/vite-plugin-uni-layouts'
 import UniHelperComponents from '@uni-helper/vite-plugin-uni-components'
 import AutoImport from 'unplugin-auto-import/vite'
-import UnoCSS from 'unocss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -29,8 +28,5 @@ export default defineConfig({
       dirs: ['src/composables', 'src/stores', 'src/utils'],
       vueTemplate: true,
     }),
-    // https://github.com/antfu/unocss
-    // see unocss.config.ts for config
-    UnoCSS(),
   ],
 })

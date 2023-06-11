@@ -1,3 +1,8 @@
+node_modules
+.DS_Store
+dist
+*.local
+
 # Logs
 logs
 *.log
@@ -7,15 +12,17 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-.DS_Store
-dist
-*.local
+# local env files
+.env
+.env.local
+.env.*.local
 
 # Editor directories and files
+.project
 .idea
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.sw*
+.hbuilderx

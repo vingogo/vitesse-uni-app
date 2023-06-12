@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { count, inc, dec } = useCount()
+const { count, inc, dec } = useCount();
 </script>
 
 <template>
@@ -18,6 +18,7 @@ const { count, inc, dec } = useCount()
 
 <style>
 .btn {
-  --at-apply: w-8 h-8 flex items-center justify-center rounded-full bg-teal-600 text-white cursor-pointer;
+  --at-apply: w-8 h-8 flex items-center justify-center rounded-full bg-teal-600 text-white
+    cursor-pointer;
 }
 </style>

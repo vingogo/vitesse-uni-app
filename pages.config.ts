@@ -1,6 +1,13 @@
 import { defineUniPages } from '@uni-helper/vite-plugin-uni-pages';
 
 export default defineUniPages({
+  easycom: {
+    autoscan: true,
+    custom: {
+      '^vin-(.*)': '@vingogo/uni-ui/lib/components/$1/index.vue',
+    },
+  },
+
   pages: [],
   globalStyle: {
     backgroundColor: '@bgColor',

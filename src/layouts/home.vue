@@ -1,7 +1,18 @@
 <template>
-  <view class="px-10 py-20 text-center">
+  <view class="home-layout">
     <slot />
-    <Footer />
-    <view class="mx-auto mt-5 text-center text-sm opacity-25"> [Home Layout] </view>
+
+    <view class="description">home布局</view>
   </view>
 </template>
+
+<style lang="scss">
+.home-layout {
+  padding: 20rpx;
+
+  .description {
+    margin-top: 30rpx;
+    text-align: center;
+  }
+}
+</style>

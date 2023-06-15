@@ -1,7 +1,16 @@
 <template>
-  <view class="px-10 py-20 text-center">
+  <view class="default-layout">
     <slot />
-    <Footer />
-    <view class="mx-auto mt-5 text-center text-sm opacity-25"> [Default Layout] </view>
+
+    <view class="description">默认布局</view>
   </view>
 </template>
+
+<style lang="scss">
+.default-layout {
+  .description {
+    margin-top: 30rpx;
+    text-align: center;
+  }
+}
+</style>

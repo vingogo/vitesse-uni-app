@@ -16,7 +16,7 @@
   // 粘贴后的内容, 是否自动格式化
   "editor.formatOnPaste": false,
   "eslint.format.enable": true,
-  "files.autoSave": "afterDelay", // 超过屏幕视图换行
+  "files.autoSave": "off",
   "eslint.validate": [
     // eslint规则对以下几种后缀文件生效. 默认为["javascript", "javascriptreact"]
     "javascript",

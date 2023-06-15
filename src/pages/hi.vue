@@ -3,9 +3,7 @@ const { value: name } = useQuery('name');
 </script>
 
 <template>
-  <view>{{ name }}</view>
-
-  <Counter />
+  <view>你好，{{ name }}</view>
 </template>
 
 <route lang="json">
